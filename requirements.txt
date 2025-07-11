@@ -1,0 +1,5 @@
+# Core numerical stack
+numpy>=2.2.6
+
+# Data manipulation
+pandas>=2.3.1

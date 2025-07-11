@@ -1,0 +1,22 @@
+# ─── Python virtual-env ───────────────────────────────────────────
+.venv/
+env/
+# PyCharm & VS Code metadata
+.idea/
+.vscode/
+
+# ─── Build / data artifacts ──────────────────────────────────────
+output/                 # generated CSVs
+*.parquet
+*.db
+
+# ─── External datasets ───────────────────────────────────────────
+iam-dataset-main/       # 40 MB of source JSONs
+
+# ─── Python cache ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+
+# ─── OS clutter ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
