@@ -1,5 +1,5 @@
 """
-Risk Feature Generator
+risk_feature_generator.py
 ======================
 Builds a per‑employee‑per‑permission **feature table** for the boot‑camp IAM
 agent demo and saves it as `output/risk_features.csv`.
